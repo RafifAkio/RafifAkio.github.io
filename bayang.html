@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bayang | Muhammad Rafif Akio Sarwadi</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      color: #333;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+      text-align: left;
+    }
+
+    h1 {
+      color: #007BFF;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    /* Hidden Full Story */
+    #fullStory {
+      display: none;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Typewriter Effect */
+    .typing {
+      display: inline-block;
+      white-space: pre-wrap;
+      overflow: hidden;
+      border-right: 3px solid transparent;
+      font-size: 1.1rem;
+    }
+
+    /* View More Button - Full Width, Smaller */
+    .view-more {
+      display: block;
+      width: 100%;
+      background: #007BFF;
+      color: white;
+      padding: 8px 0;
+      border-radius: 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+      text-align: center;
+    }
+
+    .view-more:hover {
+      background: #0056b3;
+      transform: scale(1.02);
+    }
+
+    /* Back Button */
+    .back {
+      display: block;
+      margin-top: 20px;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .back:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bayang</h1>
+    <p>Di negeri nan jauh di mana si mentari tidak pernah menyentuh tanah...</p>
+
+    <!-- View More Button (Full-Width & Smaller) -->
+    <button class="view-more" onclick="showFullStory()">View More</button>
+
+    <!-- Full Story (Hidden by Default, Revealed with Typewriter Effect) -->
+    <div id="fullStory" class="typing"></div>
+
+    <a class="back" href="writing.html">← Back to Writing Portfolio</a>
+  </div>
+
+  <script>
+    function showFullStory() {
+      document.querySelector(".view-more").style.display = "none";
+      let storyText = `Di negeri nan jauh di mana si mentari tidak pernah menyentuh tanah dengan kegelapan menyelimuti negeri kecuali “Sang Cahaya Biru Pungkur." Tidak ada yang tahu dari mana cahaya itu berasal, mereka hanya tahu cahaya itu selalu ada. Penduduk di negeri tersebut jarang berbicara walaupun bicara hanya sebatas situasi tertentu. Seiring berjalannya waktu, sebagian dari mereka memiliki kemampuan-kemampuan istimewa dari keahlian adaptasi mereka di lingkungan mereka. Mulai dari melihat dalam gelap, mendengar atau mencium berjarak jauh, hingga memiliki kemampuan langka yang tidak diketahui oleh siapapun.
+
+Seorang vigilante yang disebut "Si Bayang" datang mencari jati diri dia dengan bertahan hidup dan menjelajahi negeri ini. Ketika suatu bahaya datang, dia selalu ada di sana. Mulai dari suara kepakan lalat hingga air terjun tertinggi, dia bisa mendengar semuanya. Bagi beberapa orang menyebutnya sebagai pahlawan, namun beberapa menyebutnya sebagai ancaman. Keduanya dapat menjadi mitos maupun fakta tergantung dia yang mengetahui siapa dirinya yang sebenarnya.
+
+Suatu kala, Si Bayang mendengar teriakan seseorang dari jauh. Dengan waktu lampu berkedip, dia pun mengejar suara itu. “Kedengarannya seperti jeritan seorang gadis," kata hati Si Bayang dengan langkah kakinya yang makin cepat. “Dengan air mata menetes di wajahnya,” tambah hati Si Bayang dengan rincinya. Dia makin bergegas dengan hentakannya yang makin ringan. “Dengan sebuah bayangan sosok besar yang berjalan ke arahnya dengan pedang yang menjuntai tajam," kata hati Si Bayang dengan kagetnya. Seperti kilat, Si Bayang dengan cepat menyergap sosok itu dan berhasil menebas pedangnya.
+
+Pertarungan lambat pecah bagaikan kebuntuan koboi wild west di dekat perapian. Angin segera menyelubungi Si Bayang dan Si Sosok. Tatapan mata mereka saling terkunci bagaikan singa dan macan yang siap bertarung. Gadis menangis yang berada di antara mereka itu seketika berhenti ketika melihat situasi yang berada di depan kedua matanya. Di sekeliling mereka, dedaunan pun ikut melambai-lambai, batu kerikil ikut membuat suara, dan api unggun turut menari dengan bantuan tepukan oleh angin.
+
+Si Sosok dengan pedang menjuntainya dan Si Bayang dengan katana andalannya bersiap meraih senjata mereka. Gadis ketakutan tersebut mulai merinding, entah karena angin yang tiba atau ketegangan yang sedang ia lihat. Sesaat angin berhenti, Si Bayang dan Si Sosok dengan sekejap saling melesatkan senjata mereka dan gadis itu serentak menangis kembali dengan penuh ketakutan. Mereka bertarung dengan tangkas. Pertemuan senjata berturut-turut terjadi dengan sergap hingga terjadi percikan api kecil tiap pertemuan. Gadis kecil itu merasa ketakutan namun campur dengan rasa penasaran siapa yang akan menjadi pemenang pertempuran ini. Saat senjata mereka bertemu lebih lama, terjadi adu kunci di antara mereka. Mereka saling menatap dengan tegangnya. Melihat ketegangan itu, gadis ketakutan tersebut langsung berteriak. Hal ini membuat Si Sosok dan Si Bayang lengah sehingga senjata mereka saling tertangkis oleh satu sama lain. Mereka terpental dari kuncian tersebut dan berada di tempat semula mereka.
+
+Saat pertarungan usai, salah satu dari mereka jatuh, sementara yang lain berdiri dengan luka-luka di tubuhnya. Sosok yang menang mendekati gadis kecil yang masih ketakutan. Namun saat obor menyala, terlihatlah wajah Si Bayang yang tersenyum. Gadis itu menangis lega dan memeluknya. Dengan lembut, Si Bayang menghapus air mata gadis itu, lalu mereka pergi bersama, meninggalkan sosok yang terbaring tak berdaya. Namun, di balik kegelapan, tiga sosok misterius mengamati dari kejauhan...`;
+
+      let index = 0;
+      let storyContainer = document.getElementById("fullStory");
+      storyContainer.style.display = "block";
+
+      function typeWriter() {
+        if (index < storyText.length) {
+          storyContainer.innerHTML += storyText.charAt(index);
+          index++;
+          setTimeout(typeWriter, 20);
+        }
+      }
+      typeWriter();
+    }
+  </script>
+
+</body>
+</html>
