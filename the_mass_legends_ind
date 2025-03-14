@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mass Legends (Ind Ver) | Muhammad Rafif Akio Sarwadi</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('https://images.stockcake.com/public/d/0/0/d00403e6-5bbc-4158-98d4-e22b4e1ff4ee_large/cyberpunk-fortress-ablaze-stockcake.jpg') center/cover no-repeat fixed;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+      text-align: left;
+    }
+
+    h1 {
+      color: #4da8ff;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    /* Typewriter Effect */
+    .typing {
+      display: inline-block;
+      white-space: pre-wrap;
+      overflow: hidden;
+      font-size: 1.1rem;
+    }
+
+    /* View More Button */
+    .view-more {
+      display: block;
+      width: 100%;
+      background: #4da8ff;
+      color: white;
+      padding: 8px 0;
+      border-radius: 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+      text-align: center;
+    }
+
+    .view-more:hover {
+      background: #007BFF;
+      transform: scale(1.02);
+    }
+
+    /* Back Button */
+    .back {
+      display: block;
+      margin-top: 20px;
+      background: #4da8ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .back:hover {
+      background: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Insomnia</h1>
+    <p class="typing">Long time ago, in a different world, there’s a peaceful kingdom named Estopia...</p>
+
+    <button class="view-more" onclick="showFullStory()">View More</button>
+
+    <div id="fullStory" class="typing"></div>
+
+    <a class="back" href="writing.html">← Back to Writing Portfolio</a>
+  </div>
+
+  <script>
+    function showFullStory() {
+      document.querySelector(".view-more").style.display = "none";
+      let storyText = `
+Long time ago, in a different world, there’s a peaceful kingdom named Estopia. People of the kingdom lived happily until one day, a sudden purple mist appears and surround the kingdom. Then in the Mist, a magical figure appears that seems to controlling it, her named is Malvada. She vowed to conquer the kingdom first than the land after the previous hero defeated her and cased her in a mystical sphere centuries ago. Then she make the purple mist to auto-create her armies, from trolls, giants to humanoid creatures then make a castle to sit as her throne. 
+      
+With the kingdom at stake, now the braved hero named Iro plans with his team called The mass legends, that include Spike the muscle, Nico the brain, Tzaki the stealth, and Theiro the longshot to take down the witch while the armies and guards stay to defend the kingdom. Because there’s no stopping the purple mist of creating the creatures. The mass legends need to sneak away to her castle and take down the witch. With the battle begins, Iro and his team sneak away to the castle and take down the guards one by one. Then there’s both ways in front of them, the team split into two. Team 1, include Iro and Nico go to the west while Team 2, include Spike, Theiro, and Tzaki go to the east. Team 2 manage to get to the throne room while Team 1 still handling the remaining guards that finds out about them with Nico also using his modified grenade.
+
+Now the witch distracted by the chaos that being done outside, Team 2 use this chance to surround the witch and calling Team 1 on where they are. But their communicaton at the time somehow blocked. Because of this, Team 2 need to improvise. But because there’s upcoming guards to the throne room, they need to act quickly. They eventually use “the ambush plan.”  Spike and Tzaki surprise and have a combat with The witch in a two to one duel. Theiro take down the guards with her sniperbow before reaching them. Despite this ambush, Malvada for some reason just smirk then take down them one by one somewhat easily and tied them with her own purple mist from her staff. “Do you think you can defeat me so easily, my dear?” said Malvada while underestimating them while Team 1 eventually get to the throne, hide in the distance, and looking the tied up Team 2. Then Iro “thumbs up” to Spike. Then Spike says “No, but he can.” Then Iro jumps to Malvada and have a one and one combat while Nico try to free the tied up Team 2. After that, the untied rest of the team now dealing with the upcoming guards. At first Iro’s swords over and over get destroyed easilty by Malvada. After Iro’s last sword got broken, he finally using the mystical sword called “the hungkas” knowing with its downfall. Theiro saw this from her sniperbow. She screams to Iro for not using it but its too late. With Malvada utilizing her magic abilities and Iro using the mystical sword for this “special” occasion. They almost evenly match. But the biggest weakness of Malvada is her arrogance, with Iro manage to “use her arrogance against her” through out the fight. Malvada now with anger, she shoots with her magic with full power to Iro. With his last hope, Iro blocking it with his mystical sword and almost taken down by Malvada. But then the rest of his team helping him to “push” the blast and strike a powerful blow to Malvada. With now Malvada weaken and the mystical sword broken, she use her rest of magic and says “if I cannot enjoy this chaos, no one can’t” and cast a curse upon the kingdom and (maybe) the land, so the people cannot spoke and sealed her presence to the broken sword. Now with Iro almost faint after using all his power to strike down the witch, the team carry him. 
+
+
+
+Now the castle losing its magic, it start collapsing. With no time left, the team carry Iro and leaves the embedded broken sword and manage to escaped. With Iro “still holding on” they quickly head to the kingdom. After they arrived, they immediately get Iro to the best medical station of the kingdom. With the kingdom now successfully defended and all the creatures now either dead or run away. After the battle ended, the people either relief or confused. Because “not all stories comes with a happy ending.” Not only the people of the kingdom lost their voices. Because Iro give up all his power to defeat Malvada, even though at the best medical station of the kingdom, the braved hero inevitably dies. With all devastation of the team with some of them can’t accept this and blame themself or each other while some just accept his sacrifice. After that day, a monument build for Iro’s sacrifice and the people of the kingdom, including the king and the team, grief for his sacrifice. After that ceremony, the team still grief of the death of Iro, with some of them still have a feeling of guilt while some just accept that “it’s his choice.” Because of this the team split, with some of them go isolate or adventure to the distant land while some stay at the kingdom. All in all it’s a happy and sad ending for the kingdom.
+
+`;
+
+      let index = 0;
+      let storyContainer = document.getElementById("fullStory");
+      storyContainer.style.display = "block";
+
+      function typeWriter() {
+        if (index < storyText.length) {
+          storyContainer.innerHTML += storyText.charAt(index);
+          index++;
+          setTimeout(typeWriter, 20);
+        }
+      }
+      typeWriter();
+    }
+  </script>
+
+</body>
+</html>
