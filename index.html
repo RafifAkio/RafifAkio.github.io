@@ -121,8 +121,8 @@
       background: #0056b3;
     }
 
-    /* Cinematography & UI/UX Section */
-    .cinematography-section, .uiux-section {
+    /* Cinematography, Writing & UI/UX Section */
+    .cinematography-section, .writing-section, .uiux-section {
       position: relative;
       width: 100%;
       height: 450px;
@@ -137,12 +137,16 @@
       background: url('https://i.postimg.cc/fbM13Cwv/upscalemedia-transformed.jpg') center/cover no-repeat;
     }
 
+    .writing-section {
+      background: url('https://i.postimg.cc/Gp9zpFq4/vibrant-colorful-aurora-borealis-background-great-wallpaper.jpg') center/cover no-repeat;
+    }
+
     .uiux-section {
       background: url('https://i.postimg.cc/JhrNJRrD/Screenshot-2025-01-28-203559-1.png') center/cover no-repeat;
     }
 
     /* Black Gradient Overlay */
-    .cinematography-gradient, .uiux-gradient {
+    .cinematography-gradient, .writing-gradient, .uiux-gradient {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -150,7 +154,7 @@
     }
 
     /* Floating Text */
-    .cinematography-content, .uiux-content {
+    .cinematography-content, .writing-content, .uiux-content {
       position: relative;
       z-index: 2;
       color: white;
@@ -220,10 +224,13 @@
     </section>
 
     <!-- Writing Section -->
-    <section id="writing" class="section">
-      <h2>Writing</h2>
-      <p>From creative simple stories to emotion and story-driven stories.</p>
-      <a href="writing.html" target="_blank">View Writing Works</a>
+    <section id="writing" class="section writing-section">
+      <div class="writing-gradient"></div>
+      <div class="writing-content">
+        <h2>Writing</h2>
+        <p>From creative simple stories to emotion and story-driven stories.</p>
+        <a href="writing.html" target="_blank">View Writing Works</a>
+      </div>
     </section>
 
     <!-- UI/UX Section -->
