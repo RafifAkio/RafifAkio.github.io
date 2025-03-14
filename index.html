@@ -200,12 +200,11 @@
 
   <div class="nav-container">
     <nav>
-      <a href="index.html">Home</a>
-      <a href="cinematography.html">Cinematography</a>
-      <a href="writing.html">Writing</a>
-      <a href="uiux.html">UI/UX</a>
-      <a href="animation.html">Animation</a>
-      <a href="editing.html">Editing</a>
+      <a href="#cinematography">Cinematography</a>
+      <a href="#writing">Writing</a>
+      <a href="#uiux">UI/UX</a>
+      <a href="#animation">Animation</a>
+      <a href="#editing">Editing</a>
     </nav>
   </div>
 
@@ -257,5 +256,22 @@
     <p>© 2025 Muhammad Rafif Akio Sarwadi | Portfolio</p>
   </footer>
 
+  <script>
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 50; // Adjust 50 to your preference
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
 </body>
 </html>
