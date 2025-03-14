@@ -64,12 +64,14 @@
 
     .bts-container {
       display: flex;
-      justify-content: space-between;
-      margin-top: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
     }
 
     .bts-container img {
-      width: 48%;
+      width: 30%;
       border-radius: 10px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     }
@@ -86,6 +88,18 @@
 
     a:hover {
       background: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .bts-container img {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .bts-container img {
+        width: 100%;
+      }
     }
   </style>
 </head>
@@ -116,8 +130,11 @@
 
     <h2>BTS Production Photos</h2>
     <div class="bts-container">
-      <img src="https://i.postimg.cc/DZCj6Q7y/photo1.jpg" alt="BTS Photo 1">
-      <img src="https://i.postimg.cc/DZCj6Q7y/photo2.jpg" alt="BTS Photo 2">
+      <img src="https://i.postimg.cc/gLjzFZp5/Picture2-2.jpg" alt="BTS Photo 1">
+      <img src="https://i.postimg.cc/jdrcd5qH/Picture23.jpg" alt="BTS Photo 2">
+      <img src="https://i.postimg.cc/j5pXfqHr/Picture4.jpg" alt="BTS Photo 3">
+      <img src="https://i.postimg.cc/br1R9XgS/Picture5.jpg" alt="BTS Photo 4">
+      <img src="https://i.postimg.cc/66ZzXRK6/Picture6.jpg" alt="BTS Photo 5">
     </div>
 
     <a href="index.html">← Back to Home</a>
