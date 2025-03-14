@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Mass Legends (Ind Ver) | Muhammad Rafif Akio Sarwadi</title>
+  <title>The Mass Legends (Eng Ver) | Muhammad Rafif Akio Sarwadi</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
@@ -89,7 +89,7 @@
 <body>
 
   <div class="container">
-    <h1>The Mass Legends (Ind Ver)</h1>
+    <h1>The Mass Legends (Eng Ver)</h1>
     <p class="typing">Long time ago, in a different world, there’s a peaceful kingdom named Estopia...</p>
 
     <button class="view-more" onclick="showFullStory()">View More</button>
