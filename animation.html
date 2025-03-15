@@ -40,7 +40,8 @@
       grid-template-areas:
         "video1 img1 img1"
         "video1 img2 img3"
-        "img4 img4 video2";
+        "img4 img4 video2"
+        "video3 img5 img5";
     }
 
     .asset {
@@ -69,10 +70,12 @@
     /* Assign Areas */
     .video1 { grid-area: video1; height: 400px; }
     .video2 { grid-area: video2; height: 250px; }
+    .video3 { grid-area: video3; height: 300px; }
     .img1 { grid-area: img1; height: 300px; }
     .img2 { grid-area: img2; height: 200px; }
     .img3 { grid-area: img3; height: 200px; }
     .img4 { grid-area: img4; height: 300px; }
+    .img5 { grid-area: img5; height: 300px; }
 
     a.back {
       display: block;
@@ -98,7 +101,8 @@
           "video1 video1"
           "img1 img2"
           "img3 img4"
-          "video2 video2";
+          "video2 video3"
+          "img5 img5";
       }
     }
 
@@ -111,7 +115,9 @@
           "img2"
           "img3"
           "img4"
-          "video2";
+          "video2"
+          "video3"
+          "img5";
       }
     }
 
@@ -155,10 +161,24 @@
       <!-- Video 2 (Small) -->
       <div class="asset video2">
         <video controls>
-          <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-13%20171842.mp4" type="video/mp4">
+          <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0250%20-%20Trim.mkv" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
+
+      <!-- Video 3 (New Video) -->
+      <div class="asset video3">
+        <video controls>
+          <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0091.mkv" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <!-- Image 5 -->
+      <div class="asset img5">
+        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20080539.png" alt="Animation Image">
+      </div>
+
     </div>
 
     <a class="back" href="index.html">← Back to Home</a>
