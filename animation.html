@@ -41,7 +41,9 @@
         "video1 img1 img1"
         "video1 img2 img3"
         "img4 img4 video2"
-        "video3 img5 img5";
+        "video3 img5 img6"
+        "video6 video8 img7"
+        "video4 video5 video5";
     }
 
     .asset {
@@ -71,11 +73,17 @@
     .video1 { grid-area: video1; height: 400px; }
     .video2 { grid-area: video2; height: 250px; }
     .video3 { grid-area: video3; height: 300px; }
+    .video4 { grid-area: video4; height: 300px; }
+    .video5 { grid-area: video5; height: 250px; }
+    .video6 { grid-area: video6; height: 250px; }
+    .video8 { grid-area: video8; height: 250px; }
     .img1 { grid-area: img1; height: 300px; }
     .img2 { grid-area: img2; height: 200px; }
     .img3 { grid-area: img3; height: 200px; }
     .img4 { grid-area: img4; height: 300px; }
     .img5 { grid-area: img5; height: 300px; }
+    .img6 { grid-area: img6; height: 250px; }
+    .img7 { grid-area: img7; height: 250px; }
 
     a.back {
       display: block;
@@ -102,7 +110,10 @@
           "img1 img2"
           "img3 img4"
           "video2 video3"
-          "img5 img5";
+          "img5 img6"
+          "video6 video8"
+          "img7 img7"
+          "video4 video5";
       }
     }
 
@@ -117,7 +128,13 @@
           "img4"
           "video2"
           "video3"
-          "img5";
+          "img5"
+          "img6"
+          "video6"
+          "video8"
+          "img7"
+          "video4"
+          "video5";
       }
     }
 
@@ -134,51 +151,24 @@
       <div class="asset video1">
         <video controls>
           <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-13%20171842.mp4" type="video/mp4">
-          Your browser does not support the video tag.
         </video>
       </div>
 
-      <!-- Image 1 (Large) -->
-      <div class="asset img1">
-        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/untitled21.png" alt="Animation Image">
-      </div>
+      <!-- Images -->
+      <div class="asset img1"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/untitled21.png" alt="Animation Image"></div>
+      <div class="asset img2"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20170836.png" alt="Animation Image"></div>
+      <div class="asset img3"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20181607.png" alt="Animation Image"></div>
+      <div class="asset img4"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20080539.png" alt="Animation Image"></div>
+      <div class="asset img5"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/untitled22.png" alt="Animation Image"></div>
+      <div class="asset img6"><img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20172157.png" alt="Animation Image"></div>
 
-      <!-- Image 2 -->
-      <div class="asset img2">
-        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20170836.png" alt="Animation Image">
-      </div>
-
-      <!-- Image 3 -->
-      <div class="asset img3">
-        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20181607.png" alt="Animation Image">
-      </div>
-
-      <!-- Image 4 (Wide) -->
-      <div class="asset img4">
-        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Screenshot%202025-03-15%20080539.png" alt="Animation Image">
-      </div>
-
-      <!-- Video 2 (Small) -->
-      <div class="asset video2">
-        <video controls>
-          <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0250%20-%20Trim.mkv" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-      <!-- Video 3 (New Video) -->
-      <div class="asset video3">
-        <video controls>
-          <source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0091.mkv" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-      <!-- Image 5 -->
-      <div class="asset img5">
-        <img src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/untitled22.png" alt="Animation Image">
-      </div>
-
+      <!-- Videos -->
+      <div class="asset video2"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0250%20-%20Trim.mkv" type="video/mp4"></video></div>
+      <div class="asset video3"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/0001-0091.mkv" type="video/mp4"></video></div>
+      <div class="asset video4"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-15%20174420.mp4" type="video/mp4"></video></div>
+      <div class="asset video5"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-15%20174329.mp4" type="video/mp4"></video></div>
+      <div class="asset video6"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-15%20173649%20-%20Trim.mp4" type="video/mp4"></video></div>
+      <div class="asset video8"><video controls><source src="https://raw.githubusercontent.com/RafifAkio/RafifAkio.github.io/main/Recording%202025-03-15%20173428.mp4" type="video/mp4"></video></div>
     </div>
 
     <a class="back" href="index.html">← Back to Home</a>
