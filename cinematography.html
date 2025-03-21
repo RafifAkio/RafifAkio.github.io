@@ -50,16 +50,21 @@
       border-radius: 10px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
       text-align: center;
-      transition: 0.3s;
+      transition: transform 0.3s ease;
     }
 
     .film:hover {
-      transform: scale(1.05);
+      transform: translateY(-5px);
     }
 
     .film img {
       width: 100%;
       border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .film img:hover {
+      transform: translateY(-5px);
     }
 
     .bts-container {
@@ -74,6 +79,11 @@
       width: 30%;
       border-radius: 10px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .bts-container img:hover {
+      transform: translateY(-5px);
     }
 
     a {
